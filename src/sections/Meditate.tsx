@@ -1,6 +1,6 @@
 import meditateImage from "../assets/Images/Meditate.png";
 import rounds from "../assets/Images/rounds.png";
-import { symbols } from "../constants";
+import SymbolList from "../components/SymbolList";
 
 const Meditate = () => {
   return (
@@ -36,39 +36,7 @@ const Meditate = () => {
         />
       </div>
 
-      <div className="bg-light_blue w-full flex flex-1 max-lg:flex-col flex-row h-screen -mt-90 z-10">
-        {symbols.map((symbol) => (
-          <li
-            key={symbol.title}
-            className="flex flex-1 flex-col items-center justify-center mt-60 max-container"
-          >
-            {symbol.title === "Flexibility" ? (
-              <div className="bg-purpleBackground w-32 h-32  shadow-lg justify-center items-center relative rounded-3xl mt-4">
-                <img
-                  src={symbol.icon}
-                  alt="Icon"
-                  className=" w-16 h-16 justify-center items-center"
-                />
-              </div>
-            ) : (
-              <div className="bg-purpleBackground w-32 h-32  shadow-lg justify-center items-center relative rounded-3xl">
-                <img
-                  src={symbol.icon}
-                  alt="Icon"
-                  className=" w-16 h-16 justify-center items-center"
-                />
-              </div>
-            )}
-
-            <p className="font-DavidLibre font-bold mt-4 text-4xl">
-              {symbol.title}
-            </p>
-            <p className="mt-2 font-Kumbh text-center text-slate-500">
-              {symbol.desc}
-            </p>
-          </li>
-        ))}
-      </div>
+      <SymbolList />
     </section>
   );
 };
