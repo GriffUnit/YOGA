@@ -35,7 +35,6 @@ export default {
       'Kumbh': ["Kumbh Sans", "sans-serif"],
       'DavidLibre': ["David Libre", "sans-serif"]
     },
-   
   },
   },
   plugins: [],

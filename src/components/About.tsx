@@ -2,10 +2,11 @@ import YogaOne from "../assets/Images/Bitmap (1).png";
 import YogaTwo from "../assets/Images/Bitmap.png";
 import MatIcon from "../assets/Icons/Shape (2).png";
 import Circle from "../assets/Images/Oval.png";
+import Button from "./Button";
 
 const About = () => {
   return (
-    <section className="border-2 border-white max-container flex flex-1 rounded-3xl mt-[120px] mx-auto p-4 bg-light_blue shadow-xl z-10">
+    <section className="border-2 border-white max-container flex flex-1 rounded-3xl mt-[120px] mx-auto bg-light_blue shadow-xl z-10 p-6">
       <div className="bg-white flex flex-col md:flex-row p-12 justify-between gap-7 rounded-2xl w-full h-704 shadow-xl z-10">
         <div className="relative md:w-1/2 flex flex-col items-center justify-center">
           <div className="relative flex flex-row justify-center items-center">
@@ -57,9 +58,7 @@ const About = () => {
             about the blind texts it is an almost unorthographic life One day
             however.
           </p>
-          <button className="bg-purpleBackground text-white rounded-xl px-4 py-2 w-32 shadow-lg mt-8 focus:ring-2">
-            EXPLORE
-          </button>
+          <Button buttonTitle="EXPLORE" />
         </div>
       </div>
     </section>

@@ -13,3 +13,9 @@
 }
 
 }
+
+@layer utilities {
+  .red_heading {
+    @apply font-Kumbh text-peach_red mb-5 leading-normal text-lg
+  }
+}

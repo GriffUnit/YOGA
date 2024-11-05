@@ -41,7 +41,7 @@ const ClassBox = ({
             $
           </span>
 
-          <span className=" font-DavidLibre font-bold leading-[48px] text-[40px] ml-2">
+          <span className=" font-DavidLibre font-bold leading-[48px] text-[40px] ml-[10px]">
             {cost}
           </span>
 
@@ -54,7 +54,15 @@ const ClassBox = ({
             alt="Icon"
             /* width={121}
             height={128} */
-            className={`absolute inline-block object-contain z-10 ${classTitle === }`} //ml-12 mt-8
+            className={`absolute inline-block object-contain z-10 ${
+              classTitle === "Meditation"
+                ? "mt-9 ml-[70px]"
+                : classTitle === "Ashtanga Yoga"
+                ? "mt-4 ml-12"
+                : classTitle === "Vinayasa Yoga"
+                ? "mt-9 ml-[52px]"
+                : "mt-11 ml-[46px]"
+            }`}
           />
           <img
             src={Line}
