@@ -27,12 +27,12 @@ const Meditate = () => {
         <img
           src={meditateImage}
           alt="Meditate Image"
-          className="absolute w-auto left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 mt-64 flex justify-center items-center"
+          className="absolute w-auto left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 mt-64 flex justify-center items-center sm:w-auto"
         />
         <img
           src={rounds}
           alt="Rounds"
-          className="w-full h-full object-cover z-0"
+          className="w-full h-full object-cover z-0 overflow-hidden"
         />
       </div>
 

@@ -12,7 +12,7 @@ const Testimonials = () => {
         </h1>
       </div>
 
-      <div className="flex flex-row gap-6 mt-10">
+      <div className="flex flex-row gap-6 mt-10 max-xl:flex-col max-xl:items-center">
         {testimonialDetails.map((detail) => (
           <TestimonialBox
             name={detail.Testimonialname}

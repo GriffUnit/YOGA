@@ -13,5 +13,8 @@ import Right from './RightPath.png';
 import SmallCircle from './SmallCircle.png';
 import Search from './Search.png';
 import Quote from './Quote.png';
+import LocationIcon from './LocationIcon.png';
+import PhoneIcon from './PhoneIcon.png'; 
+import Social from './social.png';
 
-export {BalanceIcon, FlexibilityIcon, HealthyIcon, SettingsIcon, YogaLineOne, YogaLineFour, YogaLineThree, YogaLineTwo, Play, Pins, Left, Right, SmallCircle, Search, Quote}
+export {BalanceIcon, FlexibilityIcon, HealthyIcon, SettingsIcon, YogaLineOne, YogaLineFour, YogaLineThree, YogaLineTwo, Play, Pins, Left, Right, SmallCircle, Search, Quote, LocationIcon, PhoneIcon, Social}

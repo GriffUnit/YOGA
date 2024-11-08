@@ -6,7 +6,7 @@ interface Props {
 
 const Instructorbox = ({ image, name, classType }: Props) => {
   return (
-    <div className="bg-white relative rounded-3xl w-[270px] h-[336px] flex flex-col p-4 shadow-lg">
+    <div className="bg-white relative rounded-3xl w-[270px] h-[336px] flex flex-col p-4 shadow-lg active:border-purpleBackground active:border-2">
       <img
         src={image}
         alt={name}

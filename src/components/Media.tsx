@@ -24,9 +24,7 @@ const Media = () => {
           <img
             src={GroupPic}
             alt="Group Pic"
-            width={570}
-            height={480}
-            className="rounded-xl"
+            className="rounded-xl object-contain"
           />
 
           <img src={Pins} alt="Pins" className="mt-6" />

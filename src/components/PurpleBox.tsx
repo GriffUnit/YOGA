@@ -7,7 +7,7 @@ interface Props {
 
 const PurpleBox = ({ icon, mainHeading, desc, buttonInfo }: Props) => {
   return (
-    <div className="max-container relative bg-purpleBackground h-52 flex flex-row max-lg:flex-col mt-20 max-container mx-auto items-center rounded-3xl w-full p-5">
+    <div className="max-container relative bg-purpleBackground h-52 flex flex-row max-lg:flex-col max-lg:left-0 mt-20 max-container mx-auto items-center rounded-3xl w-full p-5">
       <div
         className={` ${
           mainHeading === "We Are Hiring!" ? "bg-light_blue" : "bg-purple-600"

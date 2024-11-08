@@ -14,7 +14,7 @@ const TestimonialBox = ({
   testimonialClass,
 }: Props) => {
   return (
-    <div className="w-1/2 bg-light_blue flex flex-col p-12 gap-8 rounded-2xl h-[368]">
+    <div className="w-1/2 bg-light_blue flex flex-col p-12 gap-8 rounded-2xl h-auto max-md:w-full">
       <img src={Quote} alt="Quote" width={48} height={36} className="-mt-14" />
       <p className="font-Kumbh text-xl leading-normal">{testimony}</p>
       <div className="flex flex-row gap-4">

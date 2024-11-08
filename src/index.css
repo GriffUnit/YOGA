@@ -11,11 +11,29 @@
         max-width: 1440px; /* container would not exceed this width */
         margin: 0 auto;
 }
-
 }
-
 @layer utilities {
   .red_heading {
     @apply font-Kumbh text-peach_red mb-5 leading-normal text-lg
   }
+}
+
+@media (max-width: 1080px) {
+  .bg-light_blue {
+    height: 100vh; 
+  }
+
+  .star-image { display: block !important; position: absolute; top: 0; width: 100%; height: auto; z-index: -1; /* Ensure it's behind content */ } .mt-negative { margin-top: 0 !important;
+  .bg-white {
+    margin-top: 0 !important; 
+  }
+  
+  .relative {
+    top: 0 !important; 
+  }
+
+  .absolute {
+    display: none; 
+  }
+}
 }

@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Blog = () => {
   return (
-    <section className="max-container -mt-44 mx-auto p-[135px]">
+    <section className="max-container -mt-60 mx-auto px-[135px] pt-36 pb-90">
       <div className=" flex flex-col gap-2">
         <h3 className="red_heading">OUR BLOG</h3>
         <h1 className="font-DavidLibre font-bold text-[56px] w-[360px] ">

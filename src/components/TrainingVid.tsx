@@ -15,13 +15,13 @@ interface Props {
 
 const TrainingVid = ({ mainVideo, thumbnails }: Props) => {
   return (
-    <div className="flex flex-row space-x-4">
+    <div className="flex flex-row space-x-4 max-lg:flex-col max-lg:gap-5 max-lg:items-center">
       <div className="relative w-2/3">
         <div className="rounded-3xl shadow-lg overflow-hidden">
           <img
             src={mainVideo.image}
             alt={mainVideo.title}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover "
           />
         </div>
         <div className="absolute inset-0 flex flex-col justify-end p-6 ml-4 text-white">

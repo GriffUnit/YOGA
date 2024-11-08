@@ -35,7 +35,7 @@ const Nav = () => {
             onClick={() => setToggleDropdown((prev) => !prev)}
           />
           {toggleDropdown && (
-            <ul className=" absolute right-0 top-full mt-3 w-full p-5 rounded-lg min-w-[210px] flex flex-col gap-2 justify-end items-end bg-black text-lg">
+            <ul className=" absolute right-0 top-full mt-3 w-full p-5 rounded-lg min-w-[210px] flex flex-col gap-2 justify-end items-end bg-black text-lg text-white">
               {navLinks.map((item) => (
                 <li key={item.label}>
                   <a href={item.href} className="leading-normal text-slate-900">

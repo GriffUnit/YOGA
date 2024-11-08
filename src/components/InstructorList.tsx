@@ -3,7 +3,7 @@ import Instructorbox from "./Instructorbox";
 
 const InstructorList = () => {
   return (
-    <div className="mt-10 flex flex-row justify-between gap-5 max-container">
+    <div className="mt-10 flex flex-row justify-between gap-5 max-container max-md:flex-col">
       {instructorDetails.map((detail) => (
         <Instructorbox
           image={detail.image}
